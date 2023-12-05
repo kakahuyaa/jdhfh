@@ -19,3 +19,4 @@ warnings.filterwarnings('ignore')
 
 plt.style.use('_mpl-gallery')
 FONT = {'fontsize':20, 'fontstyle':'normal', 'fontfamily':'Times New Roman', 'backgroundcolor':'#110122', 'color':'orange'} 
+
