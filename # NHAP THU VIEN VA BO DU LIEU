@@ -1,0 +1,21 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import itertools
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.io as pio
+from plotly.subplots import make_subplots
+import missingno as msno
+
+
+from plotly.offline import init_notebook_mode
+init_notebook_mode(connected=True)
+
+
+import warnings
+warnings.filterwarnings('ignore')
+
+plt.style.use('_mpl-gallery')
+FONT = {'fontsize':20, 'fontstyle':'normal', 'fontfamily':'Times New Roman', 'backgroundcolor':'#110122', 'color':'orange'} 
